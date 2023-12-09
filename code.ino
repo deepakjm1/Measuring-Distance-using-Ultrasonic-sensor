@@ -8,7 +8,7 @@ int distance ,duration;                     //declare variables to hold duration
 void setup() {
  Serial.begin(9600);                         //set the baud rate of serial communication to 9600
  pinMode(trigPin,OUTPUT);                    //set trigPin as output pin of Arduino
- pinMode(echoPin,INPUT);                     //set echoPin as output pin of Arduino
+ pinMode(echoPin,INPUT);                     //set echoPin as input pin of Arduino
 }
 
 void loop() {
